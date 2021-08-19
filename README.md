@@ -13,4 +13,4 @@ The project is made to understand the basics of JavaScript (VanillaJS) and APIs,
 
 ### Credits
 [NeoGCamp](https://neog.camp/) - levelZero by [Tanay Pratap](https://tanaypratap.com/) <br>
-Ctrl + [Click Here!](https://neog.camp/) to learn more about NeoGCamp.
+[Click Here!](https://neog.camp/) to learn more about NeoGCamp.
