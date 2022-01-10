@@ -7,7 +7,7 @@ let url = 'https://api.funtranslations.com/translate/minion.json';
 const getUrl = text => { return url + '?text=' + text; };
 
 const showError = error => {
-    alert('Uh Oh! Some error occured\n\n' + error + '\n\nPlease try after sometime.');
+    alert(`Uh Oh! Some error occured\n\n  ${error} \n\n Please try after sometime.`);
     console.log({error});
 };
 
@@ -20,7 +20,7 @@ const translate = () => {
         .catch(showError)
 };
 
-const showOutput = (text) => {
+const showOutput = text => {
     console.log(text)
     textOutput.innerHTML = text.contents.translated;
 };
