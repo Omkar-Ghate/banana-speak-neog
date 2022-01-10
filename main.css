@@ -90,6 +90,8 @@ button {
 
 /* footer */
 footer {
+    position: absolute;
+    bottom: 10px;
     background-color: var(--theme-primary);
     padding-top: 1rem;
     margin-top: 1rem;
